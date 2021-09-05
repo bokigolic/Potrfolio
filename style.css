@@ -1,24 +1,45 @@
+
 * {
+  /*display: flex;  */
   margin: 5px;
   padding: 5px;
 }
 body{
-  background-color: rgb(218, 233, 238);
+  background-image: url("backg.jpg");
 }
 
 .header {
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 5px;
   text-align: center;
-  background: black;
+  background: #86b5f1;
   color: white;
-  font-size: 225;
+  
+
 }
 
-header ul li{
-  float:right;
-  display: inline;
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 22px;
 
+.linkedin{
+    display: inline;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: red;
+}
+
+
+
+footer{
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+  
+    
+   
+}
+
+footer{
+    display: flex;
 }
