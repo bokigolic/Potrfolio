@@ -55,6 +55,46 @@ footer{
 
 }
 
+.box1{
+  display:flex;
+  height: 200px;
+  width: 300px;
+  background-image: url("https://www.kinesisinc.com/wp-content/uploads/2020/04/linkedin-101-hero@2x-901x475.png");
+  flex-direction: row;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.txt{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box2{
+  display:flex;
+  height: 200px;
+  width: 300px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDZyE5hCzGUOabijNWgTkw9md3Qf1IPNN3HA&usqp=CAU.jpg");
+  flex-direction: row;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tel{
+  display:flex;
+  height: 250px;
+  width: 300px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnEdI-S4ROABrFi_DOppkID859CaV4N4ThUQ&usqp=CAU.png");
+  flex-direction: row;
+  align-items: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 .thumbnail{
   display:flex;
   background-color: darkturquoise;
